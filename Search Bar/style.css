@@ -1,0 +1,122 @@
+*{
+
+	margin: 0;
+
+	padding: 0;
+
+	font-family: sans-serif;
+
+	box-sizing: border-box;
+}
+nav-top {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    top: 32%;
+}
+
+nav li {
+    margin: 0 15px;
+    text-align: center;
+    top: 32%;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    text-align: center;
+    top: 32%;
+}
+
+nav li a:hover {
+    background: #575757;
+    text-align: center;
+    top: 32%;
+}
+
+.profile {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.profile img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+
+}
+
+body{
+
+	height: 100vh;
+
+	display: flex;
+
+	justify-content: center;
+
+	align-items: center;
+
+	background: linear-gradient(25deg, #29272a 50%, #8c8a8d 50%);
+
+}
+
+h1{
+
+	position: absolute;
+
+	top: 30%;
+
+	font-size: 60px;
+
+	color: white;
+
+}
+
+.box{
+
+	width: 500px;
+
+	height: 50px;
+
+	background-color: white;
+
+	border-radius: 30px;
+
+	display: flex;
+
+	align-items: center;
+
+	padding: 20px;
+
+}
+
+.box > i {
+
+	font-size: 20px;
+
+	color: #777;
+
+}
+
+.box > input{
+
+	flex: 1;
+
+	height: 40px;
+
+	border: none;
+
+	outline: none;
+
+	font-size: 18px;
+
+	padding-left: 10px;
+
+
+}
